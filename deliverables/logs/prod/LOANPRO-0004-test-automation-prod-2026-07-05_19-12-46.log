@@ -1,0 +1,36 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:46: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Starting test: Get all users - Method Not Allowed error
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Test tags: @users,@get,@all-users,@LOANPRO-0004,@delete,@method-not-allowed
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Send DELETE to /users API
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Response from API: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Validating error response: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[31merror[39m] - 2026-07-05 16:12:46: 	Error: Sending a DELETE to /users should return a 405 status code
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m405[39m
+Received: [31m500[39m
+
+
+[[31merror[39m] - 2026-07-05 16:12:46: 	Error: Sending a DELETE to /users should return an error with the message 'Method Not Allowed' in the body
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"Method Not Allowed"[39m
+Received: [31m"Internal server error"[39m
+
+
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Test finished: Get all users - Method Not Allowed error
+[[32minfo[39m] - 2026-07-05 16:12:46: 	
+
+####################################################################################################

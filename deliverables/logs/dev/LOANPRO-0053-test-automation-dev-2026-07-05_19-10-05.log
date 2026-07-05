@@ -1,0 +1,36 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Starting test: Delete user - non-existing user and blank Authorization
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0053,@non-existing-user,@blank-authorization
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Deleting user with email'non.existing.emailLindsey.Grimes73@gmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Response from API: 
+{
+    "message": "User not found",
+    "code": 404
+}
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Validating response: 
+{
+    "message": "User not found",
+    "code": 404
+}
+[[31merror[39m] - 2026-07-05 16:10:05: 	Error: Deleting non-existing user without Authorization should return 401 status code
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m401[39m
+Received: [31m404[39m
+
+
+[[31merror[39m] - 2026-07-05 16:10:05: 	Error: Deleting non-existing user without Authorization should return an error with the message "Authentication required"
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"[7mAuthentication require[27md"[39m
+Received: [31m"[7mUser not foun[27md"[39m
+
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test finished: Delete user - non-existing user and blank Authorization
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+####################################################################################################

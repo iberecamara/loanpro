@@ -1,0 +1,50 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Starting test: Create user - valid user with emoji in name
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test tags: @users,@create,@valid-user,@LOANPRO-0006,@emoji-name
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Creating user in API: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Created user in API: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating created users details.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating that created user details match the sent payload.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Created user: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	User from payload: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating that user is available in Get All Users.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	User found: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test finished: Create user - valid user with emoji in name
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+####################################################################################################

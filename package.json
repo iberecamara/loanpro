@@ -1,0 +1,34 @@
+{
+  "name": "LoanPro API Test Automation challenge",
+  "version": "1.0.0",
+  "description": "API Test Automation suite created as code challenge for LoanPro",
+  "main": "index.js",
+  "scripts": {
+    "launch": "sudo docker run -p 3000:3000 ghcr.io/danielsilva-loanpro/sdet-interview-challenge:latest",
+    "test": "npx playwright test --config=src/configs/playwright.config.ts",
+    "test:dev:windows": "set APPLICATION_ENVIRONMENT=dev && npm test",
+    "test:prod:windows": "set APPLICATION_ENVIRONMENT=prod && npm test",
+    "test:dev:linuxmac": "export APPLICATION_ENVIRONMENT=dev && npm test",
+    "test:prod:linuxmac": "export APPLICATION_ENVIRONMENT=prod && npm test",
+    "report:generate": "npx allure generate ./artifacts/reports/allure/allure-results -o ./artifacts/reports/allure/allure-report",
+    "report:open": "npx allure open ./artifacts/reports/allure/allure-report",
+    "report:export": "allure awesome generate ./artifacts/reports/allure/allure-results -o ./artifacts/reports/allure/allure-report-single --single-file",
+    "report": "npm run report:generate && npm run report:open",
+    "clean": "rimraf artifacts"
+  },
+  "keywords": [],
+  "author": "Iberê Camara",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.5.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1",
+    "allure": "^3.10.0",
+    "allure-playwright": "^3.10.0",
+    "dotenv": "^17.4.2",
+    "joi": "^18.2.1",
+    "rimraf": "^6.1.3",
+    "winston": "^3.19.0"
+  }
+}

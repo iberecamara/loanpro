@@ -1,0 +1,23 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Starting test: Create invalid user - malformed payload error
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test tags: @users,@create,@invalid-user,@LOANPRO-0022,@malformed-payload
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Creating user in API: 
+"\n    \"name\": \"Mr. Erik Purdy\",\n    \"email\": \"Devon [...] (truncated value, original string length was 82)"
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Response from API: 
+{
+    "message": "Invalid JSON body",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Validating error response: 
+{
+    "message": "Invalid JSON body",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test finished: Create invalid user - malformed payload error
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+####################################################################################################

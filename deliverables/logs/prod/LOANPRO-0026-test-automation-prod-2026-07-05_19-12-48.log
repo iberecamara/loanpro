@@ -1,0 +1,46 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Starting test: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test tags: @user,@update,@update-user,@existing-user,@valid-data,@LOANPRO-0026,@update-name
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Updating user with email 'Amalia85@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Original user data: 
+{
+    "name": "Laurence Macejkovic Jr.",
+    "email": "Amalia85@yahoo.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Updating with data: 
+{
+    "name": "Lynda Champlin-Treutel",
+    "email": "Amalia85@yahoo.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Validating returned user: 
+{
+    "name": "Lynda Champlin-Treutel",
+    "email": "Amalia85@yahoo.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Validating that returned user details match the updated user.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Updated user: 
+{
+    "name": "Lynda Champlin-Treutel",
+    "email": "Amalia85@yahoo.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Returned user: 
+{
+    "name": "Lynda Champlin-Treutel",
+    "email": "Amalia85@yahoo.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test finished: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+####################################################################################################

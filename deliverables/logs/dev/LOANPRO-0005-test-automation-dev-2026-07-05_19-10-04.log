@@ -1,0 +1,50 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:04: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Starting test: Create user - valid user
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Test tags: @users,@create,@valid-user,@LOANPRO-0005,@valid-user
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Creating user in API: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Created user in API: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Validating created users details.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Validating user: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Validating that created user details match the sent payload.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Created user: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	User from payload: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Validating that user is available in Get All Users.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	User found: 
+{
+    "name": "Bailey Wilkinson",
+    "email": "Lisandro_Runte@hotmail.com",
+    "age": 105
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Test finished: Create user - valid user
+[[32minfo[39m] - 2026-07-05 16:10:04: 	
+
+####################################################################################################

@@ -1,0 +1,40 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Starting test: Get user - non-existing user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test tags: @user,@get,@find-user,@LOANPRO-0024,@non-existing-user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Finding user with email 'invalid_Royal.Weber@gmail.com' in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Response from API: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Validating error response: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-05 16:10:05: 	Error: Finding a non-existing user should return a 404 status code
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m404[39m
+Received: [31m500[39m
+
+
+[[31merror[39m] - 2026-07-05 16:10:05: 	Error: Finding a non-existing user should return an error with the message 'User not found' in the body
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"User not found"[39m
+Received: [31m"Internal server error"[39m
+
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test finished: Get user - non-existing user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+####################################################################################################

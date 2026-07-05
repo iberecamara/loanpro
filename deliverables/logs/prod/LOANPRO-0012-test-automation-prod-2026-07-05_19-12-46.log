@@ -1,0 +1,27 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:46: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Starting test: Create invalid user - blank email error
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Test tags: @users,@create,@invalid-user,@LOANPRO-0012,@blank-email,@email-error
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Creating user in API: 
+{
+    "name": "Mireya Homenick",
+    "email": "",
+    "age": 5
+}
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Response from API: 
+{
+    "message": "email is required",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Validating error response: 
+{
+    "message": "email is required",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:12:46: 	Test finished: Create invalid user - blank email error
+[[32minfo[39m] - 2026-07-05 16:12:46: 	
+
+####################################################################################################

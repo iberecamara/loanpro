@@ -1,0 +1,13 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Starting test: Get all users - empty user list
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test tags: @users,@get,@all-users,@LOANPRO-0001,@empty-users
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Retrieving all users from API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Retrieved all users from API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Users retrieved: 0
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating that retrieved users object from API is an array.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test finished: Get all users - empty user list
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+####################################################################################################

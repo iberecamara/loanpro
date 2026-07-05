@@ -1,0 +1,17 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Starting test: Delete user - deleted user not in Get All Users
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0054,@existing-user,@get
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Deleting user with email'Emanuel.Corkery@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Response from API: 
+204
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Validating user can is not available in Get All Users
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test finished: Delete user - deleted user not in Get All Users
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+####################################################################################################

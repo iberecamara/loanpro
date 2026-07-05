@@ -1,0 +1,70 @@
+name: Playwright API Tests for LoanPro
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+env:
+  APPLICATION: LoanPro
+  BASE_URL: http://localhost:3000
+  WORKERS: 4
+  LOG_LINE_LENGTH: 100
+  LOG_CONSOLE: true
+  LOG_TYPE: text
+  LOG_LEVEL: debug
+  LOG_TIMESTAMP_FORMAT: YYYY-MM-DD HH:mm:ss
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    environment: ${{ matrix.application_environment }}
+    strategy:
+      fail-fast: false
+      matrix:
+        application_environment: [dev, prod]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Start LoanPro application in Docker
+        run: |
+          docker run -d \
+            --name loanpro \
+            -p 3000:3000 \
+            ghcr.io/danielsilva-loanpro/sdet-interview-challenge:latest
+      - name: Wait for LoanPro application to be Ready
+        run: |
+          echo "Waiting LoanPro application to be ready at localhost:3000..."
+          timeout 60s sh -c 'until curl --silent --fail http://localhost:3000/${{ matrix.application_environment }}/users; do sleep 2; done'
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/*
+      - name: Install dependencies
+        run: |
+          npm ci
+          npm install playwright-core
+      - name: Run Playwright tests for ${{ matrix.application_environment }}
+        env:
+          APPLICATION_ENVIRONMENT: ${{ matrix.application_environment }}
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+        run: npm run test
+      - name: Generate single file Allure Report for ${{ matrix.application_environment }}
+        if: ${{ !cancelled() }}
+        run: npm run report:export
+      - name: Upload Allure Report for ${{ matrix.application_environment }}
+        uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: Allure Report (${{ matrix.application_environment }})
+          path: artifacts/reports/allure/allure-report-single
+          retention-days: 30
+          overwrite: true
+      - name: Upload logs for ${{ matrix.application_environment }}
+        uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: Automation Logs (${{ matrix.application_environment }})
+          path: artifacts/logs/
+          retention-days: 30

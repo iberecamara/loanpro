@@ -1,0 +1,36 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:49: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Starting test: Update user - age below minimum value error
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Test tags: @user,@update,@update-user,@user,@update,@update-user,@existing-user,@invalid-data,@LOANPRO-0041,@minimum-age,@age-error
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:12:49: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Updating user with email: 'Gene34@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Original user data: 
+{
+    "name": "Horacio Prosacco",
+    "email": "Gene34@hotmail.com",
+    "age": 17
+}
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Updating with data: 
+{
+    "name": "Sylvester Runte IV",
+    "email": "Beulah_Hahn5@yahoo.com",
+    "age": 0
+}
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Response from API: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Validating error response: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:49: 	Test finished: Update user - age below minimum value error
+[[32minfo[39m] - 2026-07-05 16:12:49: 	
+
+####################################################################################################

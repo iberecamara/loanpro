@@ -1,0 +1,22 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Starting test: Delete user - existing user and missing Authorization
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0050,@existing-user,@missing-authorization
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Deleting user with email'Stacey89@gmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Response from API: {
+    "message": "Authentication required",
+    "code": 401
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Validating response: {
+    "message": "Authentication required",
+    "code": 401
+}
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:48: 	Test finished: Delete user - existing user and missing Authorization
+[[32minfo[39m] - 2026-07-05 16:12:48: 	
+
+####################################################################################################

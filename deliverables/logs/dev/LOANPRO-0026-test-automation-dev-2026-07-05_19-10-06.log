@@ -1,0 +1,46 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:06: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Starting test: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Test tags: @user,@update,@update-user,@existing-user,@valid-data,@LOANPRO-0026,@update-name
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Updating user with email 'Shane.Haag8@gmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Original user data: 
+{
+    "name": "Shane Champlin",
+    "email": "Shane.Haag8@gmail.com",
+    "age": 86
+}
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Updating with data: 
+{
+    "name": "Andres Bahringer",
+    "email": "Shane.Haag8@gmail.com",
+    "age": 86
+}
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Validating returned user: 
+{
+    "name": "Andres Bahringer",
+    "email": "Shane.Haag8@gmail.com",
+    "age": 86
+}
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Validating that returned user details match the updated user.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Updated user: 
+{
+    "name": "Andres Bahringer",
+    "email": "Shane.Haag8@gmail.com",
+    "age": 86
+}
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Returned user: 
+{
+    "name": "Andres Bahringer",
+    "email": "Shane.Haag8@gmail.com",
+    "age": 86
+}
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:06: 	Test finished: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-05 16:10:06: 	
+
+####################################################################################################

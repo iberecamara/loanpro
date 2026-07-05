@@ -1,0 +1,35 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:12:50: 	
+
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Starting test: Update user - existing user with missing email field error
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Test tags: @user,@update,@update-user,@user,@update,@update-user,@existing-user,@invalid-data,@LOANPRO-0036,@update-email,@email-error
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-05 16:12:50: 	User seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Updating user with email: 'Clementina25@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Original user data: 
+{
+    "name": "Rodolfo Altenwerth",
+    "email": "Clementina25@hotmail.com",
+    "age": 128
+}
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Updating with data: 
+{
+    "name": "Kristen Gulgowski",
+    "age": 52
+}
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Response from API: 
+{
+    "message": "email is required",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Validating error response: 
+{
+    "message": "email is required",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:12:50: 	Test finished: Update user - existing user with missing email field error
+[[32minfo[39m] - 2026-07-05 16:12:50: 	
+
+####################################################################################################

@@ -1,0 +1,20 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Starting test: Delete user - non-existing user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0049,@non-existing-user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Deleting user with email'non.existing.emailAlia60@gmail.com' in API:
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Response from API: 
+{
+    "message": "User not found",
+    "code": 404
+}
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Validating response: 
+{
+    "message": "User not found",
+    "code": 404
+}
+[[32minfo[39m] - 2026-07-05 16:10:05: 	Test finished: Delete user - non-existing user
+[[32minfo[39m] - 2026-07-05 16:10:05: 	
+
+####################################################################################################

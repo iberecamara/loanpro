@@ -1,0 +1,27 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:04: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Starting test: Create invalid user - negative age value error
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Test tags: @users,@create,@invalid-user,@LOANPRO-0020,@negative-age,@age-error
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Creating user in API: 
+{
+    "name": "Earnestine Rogahn",
+    "email": "Pat_Heidenreich@hotmail.com",
+    "age": -1
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Response from API: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Validating error response: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-05 16:10:04: 	Test finished: Create invalid user - negative age value error
+[[32minfo[39m] - 2026-07-05 16:10:04: 	
+
+####################################################################################################

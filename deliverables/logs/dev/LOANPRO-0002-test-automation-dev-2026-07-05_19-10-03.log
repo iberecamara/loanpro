@@ -1,0 +1,54 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Starting test: Get all users - existing user list
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test tags: @users,@get,@all-users,@LOANPRO-0002,@existing-users
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Seeding 5 users in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Users seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Retrieving all users from API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Retrieved all users from API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Users retrieved: 6
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating that retrieved users object from API is an array.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating retrieved users details.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #0: 
+{
+    "name": "Rosalie Tromp",
+    "email": "Rene_Zulauf@hotmail.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #1: 
+{
+    "name": "Nathaniel Pagac",
+    "email": "Nicolas_Waters@yahoo.com",
+    "age": 94
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #2: 
+{
+    "name": "Joanne Jenkins",
+    "email": "Mitchell.Klein-Casper49@yahoo.com",
+    "age": 126
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #3: 
+{
+    "name": "Kristine Thompson III",
+    "email": "Yasmine15@gmail.com",
+    "age": 50
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #4: 
+{
+    "name": "Lindsay Shanahan",
+    "email": "Gust.Hettinger13@hotmail.com",
+    "age": 81
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Validating user at index #5: 
+{
+    "name": "Francisco Conn ♑",
+    "email": "Aubrey9@hotmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Removing users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-05 16:10:03: 	Test finished: Get all users - existing user list
+[[32minfo[39m] - 2026-07-05 16:10:03: 	
+
+####################################################################################################
