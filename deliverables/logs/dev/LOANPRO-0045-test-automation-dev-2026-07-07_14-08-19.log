@@ -1,0 +1,32 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:20: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Starting test: Update user - malformed payload error
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Test tags: @user,@update,@update-user,@user,@update,@update-user,@existing-user,@invalid-data,@LOANPRO-0045,@malformed-payload
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Updating user with email: 'Barbara.Hoeger@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Original user data: 
+{
+    "name": "Albert Roob",
+    "email": "Barbara.Hoeger@yahoo.com",
+    "age": 49
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Updating with data: 
+"\"name\": \"Ebony Grant\", \"email\": \"Lambert_Keeling5@yahoo.com\", \"age\": 136}"
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Response from API: 
+{
+    "message": "Invalid JSON body",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Validating error response: 
+{
+    "message": "Invalid JSON body",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Test finished: Update user - malformed payload error
+[[32minfo[39m] - 2026-07-07 11:08:20: 	
+
+####################################################################################################

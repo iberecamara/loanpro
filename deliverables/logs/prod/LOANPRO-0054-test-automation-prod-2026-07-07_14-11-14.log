@@ -1,0 +1,22 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Starting test: Delete user - deleted user not in Get All Users
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0054,@existing-user,@get
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Deleting user with email'Johnathan.Streich63@gmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:11:14: 	Error: Delete user response status code should be 204
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m204[39m
+Received: [31m401[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test finished: Delete user - deleted user not in Get All Users
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+####################################################################################################

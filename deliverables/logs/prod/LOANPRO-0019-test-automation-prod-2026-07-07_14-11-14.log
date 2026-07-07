@@ -1,0 +1,27 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Starting test: Create invalid user - age above maximum value error
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test tags: @users,@create,@invalid-user,@LOANPRO-0019,@maximum-age,@age-error
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Creating user in API: 
+{
+    "name": "Mrs. Carrie Ullrich",
+    "email": "Rex_Reichel17@hotmail.com",
+    "age": 151
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Response from API: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Validating error response: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test finished: Create invalid user - age above maximum value error
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+####################################################################################################

@@ -1,0 +1,75 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:16: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Starting test: Update user - update existing user with valid data for age
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Test tags: @user,@update,@update-user,@existing-user,@valid-data,@LOANPRO-0028,@update-age
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updating user with email 'Abner_Terry81@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Original user data: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 25
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updating with data: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Validating returned user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Validating that returned user details match the updated user.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updated user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Returned user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Finding user with email 'Abner_Terry81@yahoo.com' in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Finished finding user in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Validating user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 25
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Validating that created user details match the seeded user.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Found user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 25
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updated user: 
+{
+    "name": "Rex Krajcik",
+    "email": "Abner_Terry81@yahoo.com",
+    "age": 150
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:11:16: 	Error: Found user age must match the updated user
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m150[39m
+Received: [31m25[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Test finished: Update user - update existing user with valid data for age
+[[32minfo[39m] - 2026-07-07 11:11:16: 	
+
+####################################################################################################

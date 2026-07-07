@@ -113,8 +113,59 @@ test.describe('Validations for Update Users', {
                             updated.age,
                             "Updated user age must match the returned user"
                         ).toStrictEqual(returned.age);
+                    });
+
+                    let found: UserType;
+
+                    await test.step('Find user in API', async () => {
+                        logger.info(`Finding user with email '${user.email}' in API.`);
+                        found = await userApi.find(user.email) as UserType;
+                        logger.info('Finished finding user in API.');
+                    });
+
+                    await test.step('Validate user details', async () => {
+                        logger.info(`Validating user: ${StringUtils.prettyJson(found, { newline: true })}`);
+                        expect.soft(
+                            found.name,
+                            "User name must be a string"
+                        ).toEqual(expect.any(String));
+                        expect.soft(
+                            found.email,
+                            "User email must be a valid email"
+                        ).toBeAnEmail(found.email);
+                        expect.soft(
+                            found.age,
+                            "User age must be a number"
+                        ).toEqual(expect.any(Number));
+                        expect(
+                            found.age,
+                            "User age must be a number greater than or equal to 1"
+                        ).toBeGreaterThanOrEqual(1);
+                        expect(
+                            found.age,
+                            "User age must be a number lesser than or equal to 150"
+                        ).toBeLessThanOrEqual(150);
+                    });
+
+                    await test.step('Validate user details match', async () => {
+                        logger.info('Validating that created user details match the seeded user.');
+                        logger.info(`Found user: ${StringUtils.prettyJson(found, { newline: true })}`);
+                        logger.info(`Updated user: ${StringUtils.prettyJson(updated, { newline: true })}`);
+                        expect.soft(
+                            user.name,
+                            "Found user name must match the updated user"
+                        ).toStrictEqual(updated.name);
+                        expect.soft(
+                            user.email,
+                            "Found user email must match the updated user"
+                        ).toStrictEqual(updated.email);
+                        expect.soft(
+                            user.age,
+                            "Found user age must match the updated user"
+                        ).toStrictEqual(updated.age);
 
                     });
+
                 });
         });
 

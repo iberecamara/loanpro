@@ -1,0 +1,36 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:19: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Starting test: Update user - invalid age format (decimal) error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Test tags: @user,@update,@update-user,@user,@update,@update-user,@existing-user,@invalid-data,@LOANPRO-0040,@invalid-age-format,@age-error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Updating user with email: 'Christelle_Kozey-Lesch@gmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Original user data: 
+{
+    "name": "Selina Sawayn-Schmeler",
+    "email": "Christelle_Kozey-Lesch@gmail.com",
+    "age": 149
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Updating with data: 
+{
+    "name": "Tanya Rutherford II",
+    "email": "Cloyd.Daugherty@hotmail.com",
+    "age": 20.5
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Response from API: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Validating error response: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Test finished: Update user - invalid age format (decimal) error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	
+
+####################################################################################################

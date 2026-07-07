@@ -1,0 +1,26 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:16: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Starting test: Update user - update non-existing user
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Test tags: @user,@update,@update-user,@LOANPRO-0030,@non-existing-user
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updating user with email for the first time'Carolanne.Robel@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Updating with data: '
+{
+    "name": "Darrin Bode",
+    "email": "not.the.same.emailCarolanne.Robel@hotmail.com",
+    "age": 96
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Finished updating the user for the first time in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Validating error response: 
+{
+    "message": "User not found",
+    "code": 404
+}
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:16: 	Test finished: Update user - update non-existing user
+[[32minfo[39m] - 2026-07-07 11:11:16: 	
+
+####################################################################################################

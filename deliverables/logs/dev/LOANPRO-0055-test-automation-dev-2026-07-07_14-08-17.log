@@ -1,0 +1,32 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Starting test: Delete user - deleted user not in Get User by Email
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0055,@existing-user,@get
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Deleting user with email'Johanna34@gmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Response from API: [object Object]
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating user can is not available in Get Users by Email
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:08:17: 	Error: User should not be available in Get Users by Email after being deleted - response code 404.
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m404[39m
+Received: [31m500[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:17: 	Error: User should not be available in Get Users by Email after being deleted - response message 'User not found'.
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"User not found"[39m
+Received: [31m"Internal server error"[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test finished: Delete user - deleted user not in Get User by Email
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+####################################################################################################

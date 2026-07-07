@@ -1,0 +1,79 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:18: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Starting test: Update user - update existing user with valid data for all fields
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Test tags: @user,@update,@update-user,@existing-user,@valid-data,@LOANPRO-0025,@update-all-fields
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating user with email 'Germaine.Ferry49@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Original user data: 
+{
+    "name": "Myrtie Bosco",
+    "email": "Germaine.Ferry49@yahoo.com",
+    "age": 46
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating with data: 
+{
+    "name": "Mr. Gudrun Jacobs-Lemke",
+    "email": "Joann_Renner73@gmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating returned user: 
+{
+    "name": "Mr. Gudrun Jacobs-Lemke",
+    "email": "Joann_Renner73@gmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating that returned user details match the updated user.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updated user: 
+{
+    "name": "Mr. Gudrun Jacobs-Lemke",
+    "email": "Joann_Renner73@gmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Returned user: 
+{
+    "name": "Mr. Gudrun Jacobs-Lemke",
+    "email": "Joann_Renner73@gmail.com",
+    "age": 109
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finding user with email 'Joann_Renner73@gmail.com' in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finished finding user in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating user: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:08:18: 	Error: User name must be a string
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32mAny<String>[39m
+Received: [31mundefined[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:18: 	Error: User age must be a number
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32mAny<Number>[39m
+Received: [31mundefined[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:18: 	TypeError: Cannot read properties of undefined (reading 'startsWith')
+
+
+[[31merror[39m] - 2026-07-07 11:08:18: 	Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+[1mMatcher error[22m: [31mreceived[39m value must be a number or bigint
+
+Received has value: [31mundefined[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Test finished: Update user - update existing user with valid data for all fields
+[[32minfo[39m] - 2026-07-07 11:08:18: 	
+
+####################################################################################################

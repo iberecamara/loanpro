@@ -1,0 +1,16 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Starting test: Delete user - existing user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0048,@existing-user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Deleting user with email'Jasmine11@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Response from API: 204
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating response: 204
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test finished: Delete user - existing user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+####################################################################################################

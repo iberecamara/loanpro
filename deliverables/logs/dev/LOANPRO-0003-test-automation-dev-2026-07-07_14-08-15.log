@@ -1,0 +1,17 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:16: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Starting test: Get all users - trailing slash
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Test tags: @users,@get,@all-users,@LOANPRO-0003
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Retrieving all users from API.
+[[31merror[39m] - 2026-07-07 11:08:16: 	Error: Get users response must OK
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Test finished: Get all users - trailing slash
+[[32minfo[39m] - 2026-07-07 11:08:16: 	
+
+####################################################################################################

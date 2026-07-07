@@ -1,0 +1,36 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:19: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Starting test: Update user - invalid email format error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Test tags: @user,@update,@update-user,@user,@update,@update-user,@existing-user,@invalid-data,@LOANPRO-0037,@invalid-email-format,@email-error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Updating user with email: 'Judy_Labadie62@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Original user data: 
+{
+    "name": "Scottie Corwin",
+    "email": "Judy_Labadie62@yahoo.com",
+    "age": 3
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Updating with data: 
+{
+    "name": "Gladys Moore",
+    "email": "notanemail.com",
+    "age": 136
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Response from API: 
+{
+    "message": "Invalid email format",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Validating error response: 
+{
+    "message": "Invalid email format",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:19: 	Test finished: Update user - invalid email format error
+[[32minfo[39m] - 2026-07-07 11:08:19: 	
+
+####################################################################################################

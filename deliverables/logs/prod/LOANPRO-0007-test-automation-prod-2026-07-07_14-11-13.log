@@ -1,0 +1,59 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:13: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Starting test: Create valid user - extra field
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Test tags: @users,@create,@LOANPRO-0007,@valid-user,@extra-field
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Creating user in API: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91,
+    "extra": "unexpected field"
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Created user in API: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating created users details.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating user: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating that created user details match the sent payload.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Created user: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	User from payload: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91,
+    "extra": "unexpected field"
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating that created user do not have the extra field.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Created user: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	User from payload: 
+{
+    "name": "Maymie McLaughlin",
+    "email": "Toney.Buckridge@gmail.com",
+    "age": 91,
+    "extra": "unexpected field"
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Test finished: Create valid user - extra field
+[[32minfo[39m] - 2026-07-07 11:11:13: 	
+
+####################################################################################################

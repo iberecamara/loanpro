@@ -1,0 +1,20 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:15: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Starting test: Delete user - non-existing user and incorrect Authorization
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Test tags: @users,@delete,@delete-user,@LOANPRO-0052,@non-existing-user,@incorrect-authorization
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Deleting user with email'non.existing.emailTerrance.Wisoky86@yahoo.com' in API:
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Response from API: 
+{
+    "message": "Authentication required",
+    "code": 401
+}
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Validating response: 
+{
+    "message": "Authentication required",
+    "code": 401
+}
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Test finished: Delete user - non-existing user and incorrect Authorization
+[[32minfo[39m] - 2026-07-07 11:11:15: 	
+
+####################################################################################################

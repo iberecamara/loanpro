@@ -1,0 +1,27 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:15: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Starting test: Create invalid user - invalid age format (string) error
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Test tags: @users,@create,@invalid-user,@LOANPRO-0016,@invalid-age-format,@age-error
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Creating user in API: 
+{
+    "name": "Kelvin McGlynn",
+    "email": "Joesph_White@hotmail.com",
+    "age": "Twenty"
+}
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Response from API: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Validating error response: 
+{
+    "message": "Age must be between 1 and 150",
+    "code": 400
+}
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:15: 	Test finished: Create invalid user - invalid age format (string) error
+[[32minfo[39m] - 2026-07-07 11:11:15: 	
+
+####################################################################################################

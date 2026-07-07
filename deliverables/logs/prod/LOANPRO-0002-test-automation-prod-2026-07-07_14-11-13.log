@@ -1,0 +1,24 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:13: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Starting test: Get all users - existing user list
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Test tags: @users,@get,@all-users,@LOANPRO-0002,@existing-users
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Seeding 1 users in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Users seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Retrieving all users from API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Retrieved all users from API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Users retrieved: 1
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating that retrieved users object from API is an array.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating retrieved users details.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Validating user at index #0: 
+{
+    "name": "Gunner Simonis",
+    "email": "Mabel_Prohaska60@yahoo.com",
+    "age": 134
+}
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Removing users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:11:13: 	Test finished: Get all users - existing user list
+[[32minfo[39m] - 2026-07-07 11:11:13: 	
+
+####################################################################################################

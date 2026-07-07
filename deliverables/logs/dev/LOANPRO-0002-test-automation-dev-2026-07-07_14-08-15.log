@@ -1,0 +1,48 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:15: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:15: 	Starting test: Get all users - existing user list
+[[32minfo[39m] - 2026-07-07 11:08:15: 	Test tags: @users,@get,@all-users,@LOANPRO-0002,@existing-users
+[[32minfo[39m] - 2026-07-07 11:08:15: 	Seeding 5 users in API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Users seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Retrieving all users from API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Retrieved all users from API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Users retrieved: 5
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating that retrieved users object from API is an array.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating retrieved users details.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating user at index #0: 
+{
+    "name": "Karla Swaniawski",
+    "email": "Naomi32@hotmail.com",
+    "age": 100
+}
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating user at index #1: 
+{
+    "name": "Wilburn Towne",
+    "email": "Bernice.Baumbach75@hotmail.com",
+    "age": 132
+}
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating user at index #2: 
+{
+    "name": "Josh Schuster",
+    "email": "Jerald_Emard@yahoo.com",
+    "age": 102
+}
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating user at index #3: 
+{
+    "name": "Deondre Kutch",
+    "email": "Whitney56@hotmail.com",
+    "age": 87
+}
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Validating user at index #4: 
+{
+    "name": "Dr. Kent Boyle",
+    "email": "Araceli.Ziemann@yahoo.com",
+    "age": 47
+}
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Removing users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:16: 	Test finished: Get all users - existing user list
+[[32minfo[39m] - 2026-07-07 11:08:16: 	
+
+####################################################################################################

@@ -1,0 +1,50 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Starting test: Create user - valid user
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test tags: @users,@create,@valid-user,@LOANPRO-0005,@valid-user
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Creating user in API: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Created user in API: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Validating created users details.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Validating user: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Validating that created user details match the sent payload.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Created user: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	User from payload: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Validating that user is available in Get All Users.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	User found: 
+{
+    "name": "Guy Hoppe",
+    "email": "Gianni_Weissnat42@yahoo.com",
+    "age": 82
+}
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removing users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Removed users previously created in API.
+[[32minfo[39m] - 2026-07-07 11:11:14: 	Test finished: Create user - valid user
+[[32minfo[39m] - 2026-07-07 11:11:14: 	
+
+####################################################################################################

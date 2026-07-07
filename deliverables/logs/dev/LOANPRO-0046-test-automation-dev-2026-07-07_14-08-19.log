@@ -1,0 +1,81 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:20: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Starting test: Update user - Updating user allow to find user with the new email and the previous email should not be found
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Test tags: @user,@update,@update-user,@LOANPRO-0046,@get,@existing-user
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Updating user with email 'Patti35@gmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Updating with data: 
+{
+    "name": "Jacinto Larson II",
+    "email": "Brycen61@yahoo.com",
+    "age": 23
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Finding user with old email 'Brycen61@yahoo.com' in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Response from API: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Validating error response: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Finding user updated with email 'Brycen61@yahoo.com' in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Finished finding user in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Validating user: 
+{
+    "message": "Internal server error",
+    "code": 500
+}
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:08:20: 	Error: Finding a non-existing user should return a 404 status code
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m404[39m
+Received: [31m500[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:20: 	Error: Finding a non-existing user should return an error with the message 'User not found' in the body
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"User not found"[39m
+Received: [31m"Internal server error"[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:20: 	Error: User name must be a string
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32mAny<String>[39m
+Received: [31mundefined[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:20: 	Error: User age must be a number
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32mAny<Number>[39m
+Received: [31mundefined[39m
+
+
+[[31merror[39m] - 2026-07-07 11:08:20: 	TypeError: Cannot read properties of undefined (reading 'startsWith')
+
+
+[[31merror[39m] - 2026-07-07 11:08:20: 	Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeGreaterThanOrEqual[2m([22m[32mexpected[39m[2m)[22m
+
+[1mMatcher error[22m: [31mreceived[39m value must be a number or bigint
+
+Received has value: [31mundefined[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:08:20: 	Test finished: Update user - Updating user allow to find user with the new email and the previous email should not be found
+[[32minfo[39m] - 2026-07-07 11:08:20: 	
+
+####################################################################################################

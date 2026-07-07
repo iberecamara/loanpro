@@ -1,0 +1,67 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:18: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Starting test: Update user - update user twice with same data
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Test tags: @user,@update,@update-user,@LOANPRO-0029,@existing-user,@valid-data,@idempotency
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating user with email for the first time 'Gloria77@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Original user data: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Gloria77@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating with data: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finished updating the user for the first time in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating user with email for the second time'Gloria77@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updating with data: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finished updating the user for the second time in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating first returned user: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating that first returned user details match the updated user.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updated user: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	First returned user: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating that second returned user details match the updated user.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Second returned user: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updated user: 
+{
+    "name": "Judah Stamm Jr.",
+    "email": "Vicki.OReilly85@hotmail.com",
+    "age": 61
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Test finished: Update user - update user twice with same data
+[[32minfo[39m] - 2026-07-07 11:08:18: 	
+
+####################################################################################################

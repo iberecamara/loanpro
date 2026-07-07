@@ -1,0 +1,34 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Starting test: Get user - existing user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test tags: @user,@get,@find-user,@LOANPRO-0023,@existing-user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Finding user with email 'Karl_Nicolas@gmail.com' in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Finished finding user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating user: 
+{
+    "name": "Katie Pacocha II",
+    "email": "Karl_Nicolas@gmail.com",
+    "age": 137
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating that created user details match the seeded user.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Found user: 
+{
+    "name": "Katie Pacocha II",
+    "email": "Karl_Nicolas@gmail.com",
+    "age": 137
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Seeded user: 
+{
+    "name": "Katie Pacocha II",
+    "email": "Karl_Nicolas@gmail.com",
+    "age": 137
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Removed users previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test finished: Get user - existing user
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+####################################################################################################

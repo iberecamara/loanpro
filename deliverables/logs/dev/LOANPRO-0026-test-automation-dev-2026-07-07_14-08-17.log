@@ -1,0 +1,75 @@
+****************************************************************************************************
+[[32minfo[39m] - 2026-07-07 11:08:17: 	
+
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Starting test: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Test tags: @user,@update,@update-user,@existing-user,@valid-data,@LOANPRO-0026,@update-name
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Seeding 1 user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	User seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Updating user with email 'Bruce.Jakubowski@hotmail.com' in API:
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Original user data: 
+{
+    "name": "Orrin Will",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Updating with data: 
+{
+    "name": "Dr. Shaun Jones",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Finished updating user in API.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating returned user: 
+{
+    "name": "Dr. Shaun Jones",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Validating that returned user details match the updated user.
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Updated user: 
+{
+    "name": "Dr. Shaun Jones",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:17: 	Returned user: 
+{
+    "name": "Dr. Shaun Jones",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finding user with email 'Bruce.Jakubowski@hotmail.com' in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Finished finding user in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating user: 
+{
+    "name": "Orrin Will",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Validating that created user details match the seeded user.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Found user: 
+{
+    "name": "Orrin Will",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Updated user: 
+{
+    "name": "Dr. Shaun Jones",
+    "email": "Bruce.Jakubowski@hotmail.com",
+    "age": 31
+}
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removing user previously seeded in API.
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Removed users previously seeded in API.
+[[31merror[39m] - 2026-07-07 11:08:18: 	Error: Found user name must match the updated user
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoStrictEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"Dr. Shaun Jones"[39m
+Received: [31m"Orrin Will"[39m
+
+
+[[32minfo[39m] - 2026-07-07 11:08:18: 	Test finished: Update user - update existing user with valid data for name
+[[32minfo[39m] - 2026-07-07 11:08:18: 	
+
+####################################################################################################
