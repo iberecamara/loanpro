@@ -1,3 +1,5 @@
+import { faker } from "@faker-js/faker";
+
 export class ArraysUtils {
 
     public static getRandomElements<T>(array: T[], options?: { amount?: number }): T[] {
@@ -15,7 +17,7 @@ export class ArraysUtils {
         const usedIndices = new Set<number>();
 
         while (elements.length < amount) {
-            const randomIndex = Math.floor(Math.random() * array.length);
+            const randomIndex = faker.number.int({ min: 0, max: array.length - 1 });
             if (!usedIndices.has(randomIndex)) {
                 usedIndices.add(randomIndex);
                 elements.push(array[randomIndex]);
